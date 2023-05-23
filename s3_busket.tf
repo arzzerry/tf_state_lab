@@ -3,6 +3,6 @@ resource "aws_s3_bucket" "tf_state_s3_bucket" {
 
   # Prevent accidental deletion of this S3 bucket
   lifecycle {
-    prevent_destroy = true
+    # prevent_destroy = true
   }
 }
